@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Leila Lei">
+  <meta name="keywords" content="Happy Day Dessert Factory">
+  <meta name="description" content="Happy Day Dessert Factory">
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/contact.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Omnes:wght@700&display=swap" />
+  <script src="js/scripts.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <main class="homepage">
+
+
+    <nav class="home-parent">
+        <img class="logo-icon" alt="" src="./image/logo@2x.png" />
+        <a class="home nav-element" href="index.html">Home</a>
+        <a class="about nav-element" href="index.html#about-section">About</a>
+        <a class="order nav-element" target="_blank" href="https://www.grubhub.com/restaurant/3083036?utm_source=grubhub_web&utm_medium=content_owned&utm_campaign=menushare&utm_content=share-link">Order</a>
+        <div class="menu nav-element">
+        <button id="menu-drop" class="dropbtn nav-element" onclick="myFunction()"><span>Menu</span>
+            <i class="fa fa-caret-down nav-element"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a class="list" href="menu.html#ice-cream-section">Ice Cream</a>
+          <a class="list" href="menu.html#fcake-section">Frozen Cake</a>
+          <a class="list" href="menu.html#cookies-section">Fresh Baked Cookies</a>
+          <a class="list" href="menu.html#sandwich-section">Ice Cream Sandwiches</a>  
+          <a class="list" href="menu.html#spc-section">Specialty Treats</a>
+        </div>
+        </div>    
+        <a class="promotion nav-element" href="promo.html">promotion</a>
+        <a class="contact nav-element" href="contact.html">Contact</a>
+      </nav>
+      
+  </main>
+  
+  <h2>Contact Us</h2>
+  <h3>Address: 906A Western Ave. Pittsburgh, PA 15233</h3>
+  <h3>Hours: 12-8pm Monday - Sunday</h3>
+  <div class="container">
+    <div id="container-left">
+      <form id="contact-form" action="mailto:info@happydaydessertfactory.com" method="post" enctype="text/plain">
+        <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+        <br>
+        <input type="text" id="lname" name="lastname" placeholder="Last name" required>
+        <br>
+        <input id="zip" name="zip" type="text" inputmode="numeric" pattern="^(?(^00000(|-0000))|(\d{5}(|-\d{4})))$" placeholder="Zip Code"><br>
+        <input type="email" id="email_f" name="email_f" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" required><br><br>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe"> I would like to reveive news letter from Happy Day Dessert Factory</label><br><br>
+        <input id="sub-f" type="submit" value="Submit">
+      </form>
+    </div>
+    <div id="container-right">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189.75250885783376!2d-80.01730551837069!3d40.45224850334335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f55936fcaed9%3A0x5d18ed4b7f0c8f5a!2sHappy%20Day%20Dessert%20Factory!5e0!3m2!1sen!2sus!4v1680496370512!5m2!1sen!2sus" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+    
+  </div>
+
+
+
+  <footer>
+    <div class="footer-main">
+      <div id="footer-left">
+        <img class="logo-icon" alt="" src="./image/logo@2x.png" />
+        <p>Ice cream is our passion!</p>
+        <p>906A Western Ave. Pittsburgh, PA 15233</p>
+        <p>Hours: 12-8pm Mon-Sun</p>
+      </div>
+      <div id="footer-mid">
+        <p>Subcribe to get updates!</p>
+        <form action="mailto:info@happydaydessertfactory.com" method="post" enctype="text/plain">
+          <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            placeholder="Your Email">
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div id="footer-right">
+        <p>Contact Us</p>
+        <a href="https://www.facebook.com/happydaydessertfactory/" target="_blank"><img src="./image/facebook.png" alt="Facebook icon"
+            style="width:30px;height:30px;"></a>
+        <a href="https://www.instagram.com/happydaydessertfactory/?hl=en" target="_blank"><img src="./image/insta.png" alt="Insta icon"
+            style="width:30px;height:30px;"></a>
+        <a href="mailto:info@happydaydessertfactory.com" target="_blank"><img src="image/mail.png" alt="mail Icon"
+            style="width:30px;height:30px;"></a>
+      </div>
+      <div id="footer-end">
+        <p>Call Us</p>
+        <p>412 872-0117</p>
+      </div>
+    </div>
+    <!-- <br><br><span class="subscribe">Subcribe to get updates!</span>     <span>Call Us</span><br><br> -->
+
+
+    <!-- &copy; Happy Day Dessert Factory<br> -->
+
+  </footer>
+
+  
+
+</body>
+
+</html>
