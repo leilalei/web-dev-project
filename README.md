@@ -16,12 +16,12 @@ The goal of this project is to design and develop a interactive real-world websi
 
 # Technologies Used:
 
- Coding:
+- Coding:
 HTML5
 CSS
 JavaScript
 Tiny-slider
 Micromodal.js
 
- Design:
+- Design:
 Figma
